@@ -22,6 +22,17 @@
 
     <q-drawer v-model="leftDrawerOpen" bordered content-class="bg-grey-2">
       <q-list>
+        <q-item-label header>Generators</q-item-label>
+        <q-item clickable tag="a" to="QrGen">
+          <q-item-section avatar>
+            <q-icon name="chart" />
+          </q-item-section>
+          <q-item-section>
+            <q-item-label>QrGen</q-item-label>
+            <q-item-label caption>QR-code generator</q-item-label>
+          </q-item-section>
+        </q-item>
+        
         <q-item-label header>Essential Links</q-item-label>
         <q-item clickable tag="a" target="_blank" href="https://quasar.dev">
           <q-item-section avatar>
