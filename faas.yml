@@ -1,0 +1,12 @@
+version: 1.0
+provider:
+  name: openfaas
+  gateway: ${OPENFAAS_URL}
+functions:
+  handytools:
+    lang: dockerfile
+    handler: .
+    image: ${FONDORG_REGISTRY}/handytools:latest
+    secrets:
+      - fondorghub
+
