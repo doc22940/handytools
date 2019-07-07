@@ -6,8 +6,8 @@
 
 <script>
 export default {
-  name: 'PageQrGen',
-}
+  name: "PageQrGen"
+};
 </script>
 
 <style>
